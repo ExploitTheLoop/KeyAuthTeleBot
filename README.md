@@ -32,9 +32,9 @@ This Telegram bot allows users to manage software licenses through the KeyAuth A
 
 2. **Install dependencies**:
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install telebot pymongo
+```
 
 3. **Configure the bot**:
 
