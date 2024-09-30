@@ -2,7 +2,7 @@ import telebot
 from keyauth import API
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7710856792:AAEl7ucjSs_nQ5t4XgjHrYL8pEb2N7rtL2s')
+bot = telebot.TeleBot('7710856705:AAEl7ucjSs_nQ5t4XgjHrYL8pEb2N7rtL2s')
 
 # Predefined masked license key
 default_masked_license_key = "******-******-******-******-******-******"
