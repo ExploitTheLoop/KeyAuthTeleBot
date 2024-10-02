@@ -33,16 +33,17 @@ This Telegram bot allows users to manage software licenses through the KeyAuth A
 2. **Install dependencies**:
 
 ```bash
-pip install telebot pymongo
+pip install -r requirements.txt
 ```
 
 3. **Configure the bot**:
 
-   Open the `main.py` file and add your Telegram bot token:
+   Open the `.env.example` file and add your Telegram bot token:
 
-   ```python
-   bot = telebot.TeleBot('<YOUR_TELEGRAM_BOT_TOKEN>')
+   ```env
+   TELEGRAM_BOT_TOKEN="YOUR_TELEGERAM_BOT_TOKEN"
    ```
+   Then rename `.env.example` to `.env` and run the bot.
 
 4. **Run the bot**:
 
