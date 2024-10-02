@@ -1,8 +1,12 @@
+import os
 import telebot
 from keyauth import API
+from dotenv import load_dotenv
+load_dotenv()
 
-# Insert your Telegram bot token here
-bot = telebot.TeleBot('7710856705:AAEl7ucjSs_nQ5t4XgjHrYL8pEb2N7rtL2s')
+TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+
+bot = telebot.TeleBot(TOKEN)
 
 # Predefined masked license key
 default_masked_license_key = "******-******-******-******-******-******"
